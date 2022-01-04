@@ -2,8 +2,6 @@
     <id>com.idconfict.idconfict</id>
     <name>view id 前缀</name>
     <vendor email="null" url="null">null</vendor>
-    <dependencies>com.intellij.modules.androidstudio</dependencies>
-    <idea-version since-build="203"/>
     <description><![CDATA[
     Android中设view的id前缀。
     可以预设一些id前缀，在输入id时可以提供代码补全
@@ -11,7 +9,7 @@
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
-    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
@@ -22,7 +20,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="com.idconflict.idprefix" class="com.idconflict.SettingDialogAction" text="id Prefix setting" description="设置id前缀">
+        <action id="com.idconflict.idprefix" class="com.idconflict.SettingDialogAction" text="Id Prefix Setting" description="设置id前缀">
             <add-to-group group-id="HelpMenu" anchor="first"/>
         </action>
     </actions>

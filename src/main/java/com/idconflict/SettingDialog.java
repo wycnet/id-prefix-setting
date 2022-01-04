@@ -1,6 +1,6 @@
+package com.idconflict;
+
 import com.alibaba.fastjson.JSON;
-import com.idconflict.DataBean;
-import com.idconflict.UserSettingValue;
 
 import javax.swing.*;
 import java.awt.*;
@@ -89,12 +89,5 @@ public class SettingDialog extends JDialog {
     private void onCancel() {
         // add your code here if necessary
         dispose();
-    }
-
-    public static void main(String[] args) {
-        SettingDialog dialog = new SettingDialog();
-        dialog.pack();
-        dialog.setVisible(true);
-        System.exit(0);
     }
 }

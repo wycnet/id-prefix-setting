@@ -1,3 +1,5 @@
+package com.idconflict;
+
 import com.alibaba.fastjson.JSON;
 
 import java.io.*;

@@ -1,6 +1,5 @@
 package com.idconflict
 
-import UserSettingValue
 import com.intellij.codeInsight.completion.CompletionContributor
 import com.intellij.codeInsight.completion.CompletionParameters
 import com.intellij.codeInsight.completion.CompletionResultSet
