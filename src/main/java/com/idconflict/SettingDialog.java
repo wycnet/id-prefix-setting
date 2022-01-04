@@ -1,7 +1,6 @@
 import com.alibaba.fastjson.JSON;
-import com.google.gson.Gson;
-import kotlinx.serialization.json.Json;
-import kotlinx.serialization.json.JsonKt;
+import com.idconflict.DataBean;
+import com.idconflict.UserSettingValue;
 
 import javax.swing.*;
 import java.awt.*;
@@ -57,7 +56,7 @@ public class SettingDialog extends JDialog {
         preMode.setSelected(usv.isPre);
         StringBuilder sb = new StringBuilder();
         for (String s: usv.preStringList) {
-            sb.append(s).append("\n");
+            sb.append(s).append(System.getProperty("line.separator"));
         }
         preStringList.setText(sb.toString());
     }
@@ -76,9 +75,14 @@ public class SettingDialog extends JDialog {
             sv.preStringList.add(s);
         }
 
-        String jsonString = JSON.toJSONString(new DataBean(sv.isPre, sv.preStringList));
-        // 保存到本地
-        UserSettingValue.saveStringToFile(UserSettingValue.savePath, jsonString);
+        try {
+            String jsonString = JSON.toJSONString(new DataBean(sv.isPre, sv.preStringList));
+            // 保存到本地
+            UserSettingValue.saveStringToFile(UserSettingValue.savePath, jsonString);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         dispose();
     }
 
