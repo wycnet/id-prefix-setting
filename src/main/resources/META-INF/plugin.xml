@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.idconfict.idconfict</id>
     <name>view id 前缀</name>
-    <vendor email="null" url="null">null</vendor>
+    <vendor email="1982659010@qq.com" url="null">null</vendor>
     <description><![CDATA[
     Android中设view的id前缀。
     可以预设一些id前缀，在输入id时可以提供代码补全
