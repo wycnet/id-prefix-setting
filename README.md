@@ -9,12 +9,12 @@
 
 help -> id prefix setting. 弹出设置窗口，可以预设一些id前缀或者后缀。（默认使用xml文件名作为id前缀或者后缀）
 
-![设置](./pic/1.png)
+![设置](https://github.com/wycnet/id-prefix-setting/blob/master/pic/1.png)
 
-![预设](./pic/2.png)
+![预设](https://github.com/wycnet/id-prefix-setting/blob/master/pic/2.png)
 
 在编辑id的时候按下代码提示（mac 默认control+空格）会弹出代码补全提示。
 
-![编辑](./pic/3.png)
+![编辑](https://github.com/wycnet/id-prefix-setting/blob/master/pic/3.png)
 
 <!-- Plugin description end -->
