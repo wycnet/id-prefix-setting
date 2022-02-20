@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.idconfict.idconfict</id>
-    <name>view id 前缀</name>
+    <name>view id prefix</name>
     <vendor email="1982659010@qq.com" url="null">null</vendor>
     <description><![CDATA[
     Android中设view的id前缀。
