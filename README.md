@@ -16,7 +16,7 @@ The setting window pops up, and you can preset some id prefixes or suffixes.
 ![设置](https://raw.githubusercontent.com/wycnet/id-prefix-setting/master/pic/1.png)
 
 ![预设](https://raw.githubusercontent.com/wycnet/id-prefix-setting/master/pic/2.png)
-。
+
 When editing the id, pressing the code prompt (mac default control+space) will pop up a code completion prompt.
 
 ![编辑](https://raw.githubusercontent.com/wycnet/id-prefix-setting/master/pic/3.png)
